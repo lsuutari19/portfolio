@@ -88,7 +88,10 @@ const App = () => {
             <h2>NAMASTE</h2>
             <div className="text-box-wrapper">
               <p>
-                NAMASTE is an insecure Android application created for the University of Oulu cybersecurity courses. It follows OWASP10 principles. The frontend was created with Java/Android studio and the backend was created with Python/Flask. My main duties included creating the frontend with Java and connecting frontend and backend.
+                NAMASTE is an insecure Android application created for the University of Oulu cybersecurity courses. It follows OWASP10 principles.
+                 The frontend was created with Java/Android studio and the backend was created with Python/Flask.
+                  My main duties included creating the frontend with Java and connecting frontend and backend. It was a great learning
+                  experience working with fellow students to deliver a product to a client and meet their requirements.
               </p>
             </div>
           </div>
