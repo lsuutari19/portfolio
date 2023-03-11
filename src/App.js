@@ -11,11 +11,6 @@ const App = () => {
 
   const handleScroll = () => {
     setScrollPosition(window.pageYOffset);
-    if (scrollPosition > 350 == 0) {
-      document.getElementsByClassName("text-box1").style.visibility = "visible";
-    } else {
-      document.getElementsByClassName("text-box1").style.visibility = "hidden";
-    }
   };
 
 
@@ -24,8 +19,8 @@ const App = () => {
       <nav>
         <ul>
           <li><h1>Lauri Suutari</h1></li>
-          <li><a href="#start"><h2>Home</h2></a></li>
-          <li><a href="#skills"><h2>Skills</h2></a></li>
+          <li><a href="#start"><h1>Home</h1></a></li>
+          <li><a href="#skills"><h1>Skills</h1></a></li>
         </ul>
       </nav>
       <div className="content">
@@ -33,7 +28,7 @@ const App = () => {
           <div className="profilepic">
             <img src={require("./lauri.png")}></img>
           </div>
-          <h1>Lauri Suutari</h1>
+          <h1 id="name">Lauri Suutari</h1>
           <h2>CSE Master's student @ uni Oulu</h2>
           <ul className="horizontal-list1">
             <li id="socials"><a href="https://github.com/lsuutari19/">
@@ -46,8 +41,9 @@ const App = () => {
               <img src={require("./github-mark.png")}></img>
             </a></li>
           </ul>
-          <h1>About me:</h1>
+          
           <div className="text-box-wrapper">
+            <h2 id="aboutme">About me:</h2>
             <div className="text-box1">
               <p>
                 "Hello, My name is Lauri. I categorize myself as an extroverted introvert. I love socializing with people, but at the end of the day need some me-time! My favorite things about my field are problem solving, automation and figuring out new tech!"
@@ -62,22 +58,22 @@ const App = () => {
             <ul className="horizontal-list2">
               <li id="skill">
                 <img src={require("./python.png")} />
-                <h3>Python</h3>
+                <h1>Python</h1>
                 <p>Scripting and test automation</p>
               </li>
               <li id="skill">
                 <img src={require("./java.png")} />
-                <h3>Java</h3>
+                <h1>Java</h1>
                 <p>Android mobile development</p>
               </li>
               <li id="skill">
                 <img src={require("./c.png")} />
-                <h3>C</h3>
+                <h1>C</h1>
                 <p>Embedded systems</p>
               </li>
               <li id="skill">
                 <img src={require("./flask.png")} />
-                <h3>Flask</h3>
+                <h1>Flask</h1>
                 <p>RESTful API development</p>
               </li>
             </ul>
@@ -98,6 +94,8 @@ const App = () => {
           <h2 id="we">Work Experience</h2>
           <div className="work-experience">
             <img src={require("./autori.png")} />
+            <p id="w2">Title: Software Developer Trainee</p>
+            <p id="w2">Title: Software Developer Trainee</p>
           </div>
         </section>
       </div>
