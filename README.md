@@ -1,6 +1,8 @@
 # Information:
 This is a hobby project of mine to learn a bit of frontend development and just to play around with css and JS. I am also playing around with AWS on it and you can view the automatically rebuilt version of this website at: [link](https://main.d3ddbx5ks9rf13.amplifyapp.com/#start).
 
+Please note: I do not actively work on this, just whenever an inspiration strikes I might update it ;D
+
 
 
 ## Getting Started with Create React App
